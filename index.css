@@ -1,0 +1,196 @@
+
+body{
+    background-color:rgba(211, 226, 70, 0.116)
+}
+nav{
+    display: flex;
+    font-size: 28px;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content:space-between ;
+}
+h2{
+    font-size: 30px;
+    color:rebeccapurple;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color:#14ab19
+    font-weight= aqua; 
+    width: 60px;
+
+}
+nav UL li a :hover{
+    background: aqua;
+}
+ 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px; /* Adjust the padding as per your requirement */
+}
+
+.detel {
+    flex: 1; /* Allow the text to grow and shrink */
+    max-width: 600px; /* Adjust the maximum width as per your design */
+    margin-right: 20px; /* Add some space between text and image */
+}
+
+
+
+.image img {
+    max-width: 100%; 
+    padding: 10px ;/* Ensure the image doesn't exceed its container */
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: red;
+}
+h3{
+    font-size: 16px;
+    
+    color: blue;
+}
+span{
+    color:purple;
+    font-size: 23px;
+
+}
+.span:hover{
+    border: #14ab19;
+    background: aqua;
+}
+hr{
+    border: 0.6px solid white;
+    width: 50px;
+    margin: 20px 0px;
+
+}
+p{
+    margin: 20px  0px;
+    color: brown;
+    max-width: 45ch;
+}
+.btn{
+    background: hsla(246, 77%, 39%, 0.218);
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+    display:inline-block;
+    border-radius:3px;
+    
+}
+.btn:hover{
+    background: aqua;
+
+}
+.social{
+    position: absolute;
+    right: 75px;
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    font-size: 20px;
+    color: #000;
+    margin-bottom:25px;
+}
+
+   
+.social a:hover{
+    color: aqua;
+}
+.about-contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 30vh;
+    background: transparent;
+
+}
+.footer.te-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 45px;
+    margin-bottom: auto;
+
+}
+
+.footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40px;
+    border-radius: 99%;
+    border: aqua;
+
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    text-shadow: #000;
+    width: 60px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
